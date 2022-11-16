@@ -12,11 +12,9 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
         fetch(event.request)
             .then((res) => {
-                //Make clone of response
                 const resClone = res.clone();
                 // Open cache
                 caches.open(cacheName).then((cache) => {
-                    // Add response to the cache
                     cache.put(event.request, resClone);
                 });
                 return res;
@@ -53,9 +51,6 @@ self.addEventListener('activate', function(event) {
       caches.keys().then(function(cacheNames) {
         return Promise.all(
           cacheNames.filter(function(cacheName) {
-            // Return true if you want to remove this cache,
-            // but remember that caches are shared across
-            // the whole origin
           }).map(function(cacheName) {
             return caches.delete(cacheName);
           })
