@@ -1,8 +1,8 @@
 {
     "name": "IlernaHub",
     "lang": "en",
-    "short_name": "SamplePWA",
-    "description": "A sample PWA for testing purposes",
+    "short_name": "IlernaDaw",
+    "description": "IlernaHub proyect by Victor Torres Ortiz",
     "start_url": "./index.html",
     "scope": "./",
     "display": "standalone",
