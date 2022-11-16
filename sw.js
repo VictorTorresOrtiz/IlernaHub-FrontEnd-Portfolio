@@ -1,3 +1,5 @@
+"use strict";
+
 const cacheName = "v1";
 
 // Install a service worker
