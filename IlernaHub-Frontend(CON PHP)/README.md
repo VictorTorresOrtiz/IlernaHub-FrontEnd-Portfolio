@@ -8,9 +8,8 @@ Ilerna User Management WEB
 * Signup
 * Change Password
 * Edit Profile
-* Feedback
-* View Messages
-* Notification
+* Mail (Coming Soon)
+* Notification (Coming Soon)
 
 # Admin (Coming Soon)
 
