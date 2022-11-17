@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <!-- ***** METAS ***** -->>
+    <!-- ***** METAS ***** -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/x-icon" href="assets/images/apps_assets/favicon.png">
@@ -10,7 +10,7 @@
 
     <title>Friends | IlernaHub</title>
 
-    <!-- ***** Favicon ***** -->>
+    <!-- ***** Favicon ***** -->
     <link rel="icon" type="image/x-icon" href="assets/images/apps_assets/favicon.png">
 
     <!-- ***** Bootstrap CSS ***** -->>
@@ -71,9 +71,9 @@
                     <!-- ***** Search End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="team.html" class="active">Friends</a></li>
-                        <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="team.php" class="active">Friends</a></li>
+                        <li><a href="profile.php">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -103,7 +103,7 @@
                     <div class="thumb">
                       <img src="assets/images/featured-01.jpg" alt="">
                       <div class="hover-effect">
-                       <a href="profiles/Juanma089.html"> <h6>View Profile</h6></a>
+                       <a href="../../IlernaHub-FrontEnd-Portfolio/IlernaHub-Frontend(CON PHP)/profiles/ Juanma089.html"> <h6>View Profile</h6></a>
                       </div>
                     </div>
                     <h4>Juanma089<br><span>800 Followers</span></h4>
@@ -115,7 +115,7 @@
                     <div class="thumb">
                       <img src="assets/images/featured-02.jpg" alt="">
                       <div class="hover-effect">
-                        <a href="profiles/JairoHG.html"> <h6>View Profile</h6></a>
+                        <a href="../../IlernaHub-FrontEnd-Portfolio/IlernaHub-Frontend(CON PHP)/profiles/JairoHG.html"> <h6>View Profile</h6></a>
                       </div>
                     </div>
                     <h4>JairoHG<br><span>900 Followers</span></h4>

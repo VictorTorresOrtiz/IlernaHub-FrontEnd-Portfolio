@@ -45,12 +45,15 @@ if(isset($_POST['submit']))
 <html lang="en" class="no-js">
 
 <head>
+	<!-- ***** METAS ***** -->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
+	<!-- ***** Favicon ***** -->
+    <link rel="icon" type="image/x-icon" href="../assets/images/apps_assets/favicon.png">
 	
 	<title>Edit Profile</title>
 
@@ -71,7 +74,7 @@ if(isset($_POST['submit']))
 	<!-- Admin Stye -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- Loading Scripts -->
+	<!-- JS -->
 	<script defer src="js/jquery.min.js"></script>
 	<script defer src="js/bootstrap-select.min.js"></script>
 	<script defer src="js/bootstrap.min.js"></script>

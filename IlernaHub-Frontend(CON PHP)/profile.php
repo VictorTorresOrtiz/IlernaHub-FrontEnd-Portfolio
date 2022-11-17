@@ -101,7 +101,7 @@
                       <h4>Welcome Back!</h4>
                       <p>Si quieres contribuir en nuestro proyecto puedes acceder a nuestro <a href="https://github.com/VictorTorresOrtiz">GitHub</a></p>
                       <div class="main-border-button">
-                        <a href="index.html">Logout</a>
+                        <a href="#">IlernaDaw Store</a>
                       </div>
                     </div>
                   </div>

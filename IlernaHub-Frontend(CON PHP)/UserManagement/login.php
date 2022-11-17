@@ -37,6 +37,9 @@ echo "<script type='text/javascript'> document.location = '../../includes/index.
 	<meta name="description" content="">
 	<meta name="author" content="">
 
+	<!-- ***** Favicon ***** -->
+    <link rel="icon" type="image/x-icon" href="../assets/images/apps_assets/favicon.png">
+
 	<!-- CSS CORE -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">

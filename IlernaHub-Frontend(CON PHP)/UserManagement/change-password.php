@@ -44,6 +44,8 @@ $error="Your current password is not valid.";
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
+	<!-- ***** Favicon ***** -->
+    <link rel="icon" type="image/x-icon" href="../assets/images/apps_assets/favicon.png">
 	
 	<title>User Change Password</title>
 
@@ -63,6 +65,26 @@ $error="Your current password is not valid.";
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
 	<!-- Admin Stye -->
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- JS -->
+	<script defer src="js/jquery.min.js"></script>
+	<script defer src="js/bootstrap-select.min.js"></script>
+	<script defer src="js/bootstrap.min.js"></script>
+	<script defer src="js/jquery.dataTables.min.js"></script>
+	<script defer src="js/dataTables.bootstrap.min.js"></script>
+	<script defer src="js/Chart.min.js"></script>
+	<script defer src="js/fileinput.js"></script>
+	<script defer src="js/chartData.js"></script>
+	<script defer src="js/main.js"></script>
+
+	<script defer type="text/javascript">
+				 $(document).ready(function () {          
+					setTimeout(function() {
+						$('.succWrap').slideUp("slow");
+					}, 3000);
+					});
+	</script>
+
 <script type="text/javascript">
 function valid()
 {
@@ -169,24 +191,6 @@ return true;
 			</div>
 		</div>
 	</div>
-
-	<!-- Loading Scripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap-select.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.dataTables.min.js"></script>
-	<script src="js/dataTables.bootstrap.min.js"></script>
-	<script src="js/Chart.min.js"></script>
-	<script src="js/fileinput.js"></script>
-	<script src="js/chartData.js"></script>
-	<script src="js/main.js"></script>
-	<script type="text/javascript">
-				 $(document).ready(function () {          
-					setTimeout(function() {
-						$('.succWrap').slideUp("slow");
-					}, 3000);
-					});
-	</script>
 
 </body>
 
