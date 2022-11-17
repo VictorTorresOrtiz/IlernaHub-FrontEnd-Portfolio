@@ -6,7 +6,7 @@
 			</li>
 			<li><a href="#"><i class="fa fa-envelope"></i> &nbsp;Mail (Coming Soon)<sup style="color:red">*</sup></a>
 			</li>
-			<li><a href="notification.php"><i class="fa fa-bell"></i> &nbsp;Notification<sup style="color:red">*</sup></a>
+			<li><a href="#"><i class="fa fa-bell"></i> &nbsp;Notification<sup style="color:red">*</sup></a>
 			</li>
 			</ul>
 		</nav>
