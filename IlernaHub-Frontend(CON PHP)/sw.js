@@ -1,6 +1,6 @@
 "use strict";
 
-const cacheName = "v1";
+const cacheName = "UserManagement-Cache";
 
 // Install a service worker
 self.addEventListener("install", (event) => {

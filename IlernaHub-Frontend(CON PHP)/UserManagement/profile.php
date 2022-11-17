@@ -71,6 +71,34 @@ if(isset($_POST['submit']))
 	<!-- Admin Stye -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Loading Scripts -->
+	<script defer src="js/jquery.min.js"></script>
+	<script defer src="js/bootstrap-select.min.js"></script>
+	<script defer src="js/bootstrap.min.js"></script>
+	<script defer src="js/jquery.dataTables.min.js"></script>
+	<script defer src="js/dataTables.bootstrap.min.js"></script>
+	<script defer src="js/Chart.min.js"></script>
+	<script defer src="js/fileinput.js"></script>
+	<script defer src="js/chartData.js"></script>
+	<script defer src="js/main.js"></script>
+
+	<!--PWA ASSETS-->
+    <link rel="manifest" href="../manifest.json">
+	<script defer src="../pwa.js"></script>
+    <script defer src="../sw.js"></script>
+    <!-- IOS SUPPORT -->
+    <link rel="apple-touch-icon" href="../assets/pwaImages/ios/100.png" />
+    <link rel="apple-touch-icon" href="../assets/pwaImages/ios/114.png" />
+    <link rel="apple-touch-icon" href="../assets/pwaImages/ios/120.png" />
+    <link rel="apple-touch-icon" href="../assets/pwaImages/ios/144.png" />
+    <link rel="apple-touch-icon" href="../assets/pwaImages/ios/167.png" />
+    <link rel="apple-touch-icon" href="../assets/pwaImages/ios/180.png" />
+    <link rel="apple-touch-icon" href="../assets/pwaImages/ios/192.png" />
+    <link rel="apple-touch-icon" href="../assets/pwaImages/ios/1024.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#2f3d58" />
+    <meta name="theme-color" content="#2f3d58" />
+    
+
 	<script type= "text/javascript" src="../vendor/countries.js"></script>
 	<style>
 	.errorWrap {
@@ -90,6 +118,14 @@ if(isset($_POST['submit']))
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
 }
 		</style>
+
+	<script defer type="text/javascript">
+				 $(document).ready(function () {          
+					setTimeout(function() {
+						$('.succWrap').slideUp("slow");
+					}, 3000);
+					});
+	</script>
 
 
 </head>
@@ -174,24 +210,6 @@ if(isset($_POST['submit']))
 			</div>
 		</div>
 	</div>
-
-	<!-- Loading Scripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap-select.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.dataTables.min.js"></script>
-	<script src="js/dataTables.bootstrap.min.js"></script>
-	<script src="js/Chart.min.js"></script>
-	<script src="js/fileinput.js"></script>
-	<script src="js/chartData.js"></script>
-	<script src="js/main.js"></script>
-	<script type="text/javascript">
-				 $(document).ready(function () {          
-					setTimeout(function() {
-						$('.succWrap').slideUp("slow");
-					}, 3000);
-					});
-	</script>
 </body>
 </html>
 <?php } ?>
