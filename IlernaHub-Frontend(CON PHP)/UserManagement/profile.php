@@ -85,6 +85,7 @@ if(isset($_POST['submit']))
 	<script defer src="js/chartData.js"></script>
 	<script defer src="js/main.js"></script>
 
+
 	<!--PWA ASSETS-->
     <link rel="manifest" href="../manifest.json">
 	<script defer src="../pwa.js"></script>
