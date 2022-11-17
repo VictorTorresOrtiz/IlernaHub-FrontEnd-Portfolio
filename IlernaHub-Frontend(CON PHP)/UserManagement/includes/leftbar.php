@@ -9,7 +9,7 @@
 			<li><a href="#"><i class="fa fa-bell"></i> &nbsp;Notification<sup style="color:red">*</sup></a>
 			</li>
 			</li>
-			<li><a href="../../../../IlernaHub-FrontEnd-Portfolio/index.html"><i class="fa fa-arrow-left"></i> &nbsp;IlernaHub</a>
+			<li><a href="../../../../IlernaHub-FrontEnd-Portfolio/IlernaHub-Frontend(CON PHP)/UserManagement/logout.php"><i class="fa fa-arrow-left"></i> &nbsp;IlernaHub</a>
 			</li>
 			</ul>
 		</nav>
