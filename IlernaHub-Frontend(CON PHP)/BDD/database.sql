@@ -1,11 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.7.9
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jun 15, 2018 at 05:57 PM
--- Server version: 10.1.31-MariaDB
--- PHP Version: 7.2.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -36,7 +28,7 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `admin`
+-- Dumping data for table `admin` COOMING SOON
 --
 
 INSERT INTO `admin` (`id`, `username`, `email`, `password`) VALUES
