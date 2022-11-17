@@ -93,7 +93,7 @@
                     <ul class="nav">
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="../../IlernaHub-FrontEnd-Portfolio/index.html">Front-End</a></li>
-                        <li><a href="team.html">Friends</a></li>
+                        <li><a href="team.php">Friends</a></li>
                         <li><a href="profile.php">Welcome Back! <img src="assets/images/profile-header.jpg" alt=""></a></li>
                     </ul>   
                     <a class='menu-trigger'>
