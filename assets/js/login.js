@@ -1,3 +1,5 @@
+"use strict";
+
 $(window, document, undefined).ready(function() {
 
   $('input').blur(function() {
