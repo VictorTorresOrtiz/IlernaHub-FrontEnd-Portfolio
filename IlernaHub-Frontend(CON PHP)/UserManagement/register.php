@@ -139,7 +139,7 @@ $error="Something went wrong. Please try again";
                             <input type="password" name="password" class="form-control" id="password" required >
                             </div>
 
-                            <label class="col-sm-1 control-label">Designation<span style="color:red">*</span></label>
+                            <label class="col-sm-1 control-label">Adress<span style="color:red">*</span></label>
                             <div class="col-sm-5">
                             <input type="text" name="designation" class="form-control" required>
                             </div>
