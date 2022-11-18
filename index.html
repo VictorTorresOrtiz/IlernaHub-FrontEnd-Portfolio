@@ -43,11 +43,11 @@
     <!-- ***** JS ***** -->
     <script defer src="vendor/jquery/jquery.min.js"></script>
     <script defer src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
     <script defer src="assets/js/isotope.min.js"></script>
     <script defer src="assets/js/owl-carousel.js"></script>
     <script defer src="assets/js/tabs.js"></script>
     <script defersrc="assets/js/popup.js"></script>
+    <script defersrc="assets/js/contactForm.js"></script>
     <script defer src="assets/js/custom.js"></script>
     <script defer src="pwa.js"></script>
     <script defer src="sw.js"></script>
@@ -94,6 +94,7 @@
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="./IlernaHub-Frontend(CON PHP)/UserManagement/login.php">Test Backend</a></li>
                         <li><a href="team.html">Friends</a></li>
+                        <li><a data-whatever="@mdo"data-toggle="modal" data-target="#exampleModal">Contact</a></li>
                         <li><a href="login.html">Account <img src="assets/images/profile-header.jpg" alt=""></a></li>
                     </ul>   
                     <a class='menu-trigger'>
@@ -106,6 +107,36 @@
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Recipient:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- ***** SECTION BANER ***** -->
   <div class="container">
@@ -121,13 +152,29 @@
                   <h6>Welcome to IlernaHub</h6>
                   <h4><em>Browse</em> our Apps online</h4>
                   <div class="main-button">
-                    <a href="register.html">Not yet Registered?</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <!-- ***** Banner End ***** -->
+
+
+
+          <!-- *****OFF CANVAS START ***** -->
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+              <button type="button" class="btn-close text-reset btnOffcanvas" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Try scrolling the rest of the page to see this option in action.</p>
+            </div>
+          </div>
+          <!-- ***** OFF CANVAS END ***** -->
+
+
 
           <!-- ***** LAUNCHED APPS ***** -->
           <div class="coming-soon">
