@@ -92,9 +92,7 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                         <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="./IlernaHub-Frontend(CON PHP)/UserManagement/login.php">Test Backend</a></li>
                         <li><a href="team.html">Friends</a></li>
-                        <li><a data-whatever="@mdo"data-toggle="modal" data-target="#exampleModal">Contact</a></li>
                         <li><a href="login.html">Account <img src="assets/images/profile-header.jpg" alt=""></a></li>
                     </ul>   
                     <a class='menu-trigger'>
@@ -107,36 +105,6 @@
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
-
-
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <label for="recipient-name" class="col-form-label">Recipient:</label>
-              <input type="text" class="form-control" id="recipient-name">
-            </div>
-            <div class="form-group">
-              <label for="message-text" class="col-form-label">Message:</label>
-              <textarea class="form-control" id="message-text"></textarea>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Send message</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
 <!-- ***** SECTION BANER ***** -->
   <div class="container">
@@ -152,7 +120,7 @@
                   <h6>Welcome to IlernaHub</h6>
                   <h4><em>Browse</em> our Apps online</h4>
                   <div class="main-button">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Contact Us</button>
                   </div>
                 </div>
               </div>
@@ -162,17 +130,30 @@
 
 
 
-          <!-- *****OFF CANVAS START ***** -->
+          <!-- *****OFF CANVAS START  Modal Contact ***** -->
           <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
               <button type="button" class="btn-close text-reset btnOffcanvas" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <p>Try scrolling the rest of the page to see this option in action.</p>
+              <form>
+
+                <div class="mb-3">
+                  <label for="subjectExample" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subjectExample" required placeholder="Subject">
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Message</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" required placeholder="Type something">
+
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
           </div>
-          <!-- ***** OFF CANVAS END ***** -->
+          <!-- ***** OFF CANVAS END Modal Contact***** -->
 
 
 
